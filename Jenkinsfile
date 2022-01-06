@@ -10,7 +10,7 @@ pipeline {
                checkout(
                         [$class: 'GitSCM',
                         branches: [[name: "jenkinsfile-as-code" ]],
-                        userRemoteConfigs: [[url: 'https://github.com/mufasa2019/ejemplo-maven/]]])
+                        userRemoteConfigs: [[url: 'https://github.com/mufasa2019/ejemplo-maven/']]])
             }
         }
         stage("Paso 2: Compliar"){
@@ -52,3 +52,4 @@ pipeline {
             sh "echo 'fase failure'"
         }
     }
+}
