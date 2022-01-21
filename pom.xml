@@ -11,7 +11,7 @@
 	<groupId>com.devopsusach2020</groupId>
 	<artifactId>DevOpsUsach2020</artifactId>
 	<version>0.0.1</version>
-	<name>covid19-sobarqube</name>
+	<name>covid19-sobarqube2</name>
 	<description>Proyecto de ejemplo para el desarrollo del diplomado DevOps Universidad de Santiago de Chile 2021</description>
 
 	<properties>
